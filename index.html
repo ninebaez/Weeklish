@@ -1,126 +1,120 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Weeklish</title>
-</head>
+<meta charset="UTF-8">
+<title>Weeklish</title>
 
-  <style>
- .header {
+<style>
+
+body {
+  background-color: #eee;
+  font-family: Arial;
+}
+
+/* CONTENEDOR */
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+/* HEADER */
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
- }
-
-.main {
-display-content: flex;
-justify: center;
-gap: 40px;
-margin-top: 10px;
+  margin-bottom: 20px;
 }
 
-.login, .redes{
-content: space-between; 
-border: 2px solid black;
-padding: 20px;
-width: 250px;
-background-color: white;
-border-radius: 15px;  
-}
-
-.login input{
-justify: space-between;
-display: block;
-margin: 10px auto;
-padding: 10px;
-width: 88px;
-border-radius: 8px;
-border: 1px solid gray;
-}
-  
- .menu{
- align-items: flex-start; 
- gap: 15px;  
-
-
-   
 .logo {
-font-size: 24px;
-font-weight: bold;
+  font-size: 24px;
+  font-weight: bold;
 }
-  
-body{
- background-color: #eee;
- font-family: Arial;
-  }
-    
-  .menu button{
-   padding: 10px 20px;
-   border: none;
-   background-color: orange;
-   color: black; 
-   cursor: pointer;
-   border-radius: 10px;
-   font-weight: bold;
 
-  .menu button:hover{
+.menu {
+  display: flex;
+  gap: 15px;
+}
+
+.menu button {
+  padding: 10px 20px;
+  border: none;
+  background-color: orange;
+  color: black;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.menu button:hover {
   background-color: darkorange;
-  }
+}
 
-  .container {
-  max-width: 900px;
-  margin: auto;
-  }
+/* MAIN */
+.main {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
 
-  .header {
-   margin-botton: 20px; 
-  }
+/* CAJAS */
+.login, .redes {
+  border: 2px solid black;
+  padding: 20px;
+  width: 250px;
+  background-color: white;
+  border-radius: 15px;
+}
 
-  </style>
+.login input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 80%;
+  border-radius: 8px;
+  border: 1px solid gray;
+}
 
-
-  </head>
+</style>
+</head>
 
 <body>
 
-<h1>🎤 Aprende Inglés con Weeklish</h1>
-
-<p>Bienvenido a nuestra página para aprender inglés fácil 😄</p>
-
-  <div class="main">
-
-  <div class="login">
-  <h3> 🔐 Iniciar sesión</h3>
-  <input type="text" placeholder="Usuario">
-  <input type="password" placeholder="Contraseña">
-  <button>Ingresar</button>
-
-  <div class="redes">
-  <h3>📱 Redes sociales</h3>
-  <div>Youtube</div>  
-  <div>Tiktok</div>  
-
 <div class="container">
 
+  <h1>🎤 Aprende Inglés con Weeklish</h1>
+  <p>Bienvenido a nuestra página para aprender inglés fácil 😄</p>
 
+  <!-- HEADER -->
   <div class="header">
-  <div class="logo">weeklish</div>
-  
-<div class="menu">
-<button>Grammar</button>
-<button>Listening</button>
-<button>Vocab</button>
-<button>Speaking</button>
-</div>
+    <div class="logo">Weeklish</div>
+
+    <div class="menu">
+      <button>Grammar</button>
+      <button>Listening</button>
+      <button>Vocab</button>
+      <button>Speaking</button>
+    </div>
+  </div>
+
+  <!-- MAIN -->
+  <div class="main">
+
+    <div class="login">
+      <h3>🔐 Iniciar sesión</h3>
+      <input type="text" placeholder="Usuario">
+      <input type="password" placeholder="Contraseña">
+      <button>Ingresar</button>
+    </div>
+
+    <div class="redes">
+      <h3>📱 Redes sociales</h3>
+      <div>YouTube</div>
+      <div>TikTok</div>
+    </div>
+
+  </div>
+
 </div>
 
-<div class="main"
-<!-- login -->
-<!-- redes -->  
-</div>
-
-  
-</div>
-  
 </body>
 </html>
