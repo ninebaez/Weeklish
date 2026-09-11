@@ -13,7 +13,7 @@ body {
 
 /* CONTENEDOR */
 .container {
-  max-width: 100px;
+  max-width: 900px;
   margin: auto;
 }
 
@@ -25,7 +25,10 @@ body {
   margin-bottom: 20px;
 }
 
-
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
 
 .menu {
   display: flex;
@@ -62,7 +65,7 @@ body {
   border-radius: 15px;
 }
 
-.login, input {
+.login input {
   display: block;
   margin: 10px auto;
   padding: 10px;
@@ -71,16 +74,6 @@ body {
   border: 1px solid gray;
 }
 
-.img {
-  display: block;
-  margin: 05px auto;
-  padding: 05px;
-  width: 05%;
-  border-radius: 5px;
-  border: 1px solid gray;
-  
-  }
-
 </style>
 </head>
 
@@ -88,14 +81,12 @@ body {
 
 <div class="container">
 
- <!-- HEADER -->
-  <div class="header">
-   <img src="Vertical Weeklish.png" widith="03" style="border-radius: 20px;">
-
-  <h1> Aprende Inglés con Weeklish</h1>
+  <h1>🎤 Aprende Inglés con Weeklish</h1>
   <p>Bienvenido a nuestra página para aprender inglés fácil 😄</p>
 
- 
+  <!-- HEADER -->
+  <div class="header">
+    <div class="logo">Weeklish</div>
 
     <div class="menu">
       <button>Grammar</button>
@@ -113,8 +104,6 @@ body {
       <input type="text" placeholder="Usuario">
       <input type="password" placeholder="Contraseña">
       <button>Ingresar</button>
-      <button>Registrar</button> 
-
     </div>
 
     <div class="redes">
