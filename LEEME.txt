@@ -1,0 +1,23 @@
+WEEKLISH: PRIMERA PÁGINA
+
+Para verla, abre index.html en tu navegador. No necesitas instalar nada.
+
+La tarjeta de inicio ahora lleva a Games, con un reto de vocabulario de cinco preguntas en tres niveles: Easy, Medium y Advanced. Cada respuesta muestra una oración de ejemplo, su traducción y un botón para escucharla.
+
+Cómo está organizada:
+- index.html contiene el contenido: títulos, botones, lecciones, lecturas y enlaces.
+- styles.css define colores, tamaños y distribución. La regla @media adapta el diseño a teléfonos.
+- script.js controla la navegación, los niveles, los reproductores y los juegos.
+- Grammar tiene quizzes en Easy y Medium; el video de ejemplo en assets/dedcution.mp4 y el quiz de deducciones están en Advanced.
+- Listening tiene Easy con frases de práctica, Medium con Agent Phrases y Advanced con Celine Pitch Shadowing. Los audios están en assets/listening/.
+- Reading ofrece una lectura y un quiz de comprensión por nivel; al revisar muestra puntuación, respuestas correctas y explicaciones.
+- Vocab agrupa 269 imágenes por tema y dificultad. Los archivos están en assets/vocabulary/ y la lista en vocab-data.js.
+- Speaking organiza los ejercicios en Easy, Medium y Advanced; también permite escuchar frases y grabar tu voz.
+- Games ofrece retos de cinco preguntas en Easy, Medium y Advanced. Cada respuesta muestra una oración de ejemplo, traducción y audio.
+
+Prueba a aprender modificando una cosa cada vez:
+1. Cambia los textos en index.html (por ejemplo, el título o los temas).
+2. Cambia background-color o los colores en styles.css.
+3. Cambia el texto de confirmación en script.js y recarga la página.
+
+Las imágenes están en la carpeta assets: weeklish-logo.png, youtube.png y tiktok.png. Para cambiar una, reemplaza el archivo conservando su nombre o edita su ruta en index.html.
